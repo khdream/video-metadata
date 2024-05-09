@@ -1,0 +1,39 @@
+{
+  "name": "videoteca",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "create-user": "bun ./scripts/create-user.ts",
+    "deps": "bunx npm-check-updates -u",
+    "format": "biome format --max-diagnostics 100 --write ./src",
+    "lint": "biome lint --apply-unsafe --max-diagnostics 100 ./src",
+    "start": "next dev"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "2.8.2",
+    "@emotion/react": "11.11.4",
+    "@emotion/styled": "11.11.5",
+    "@tanstack/react-query": "5.35.1",
+    "@tanstack/react-table": "8.16.0",
+    "dotenv": "16.4.5",
+    "framer-motion": "11.1.8",
+    "lodash": "4.17.21",
+    "match-sorter": "6.3.4",
+    "next": "14.2.3",
+    "next-auth": "4.24.7",
+    "pg": "8.11.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "sharp": "0.33.3",
+    "zod": "3.23.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3",
+    "@types/node": "20.12.9",
+    "@types/pg": "8.11.6",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.4.5"
+  }
+}
