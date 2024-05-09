@@ -82,15 +82,7 @@ export default function LogIn() {
   }
 
   return (
-    <VStack
-      alignItems="center"
-      height="full"
-      justifyContent="flex-start"
-      paddingTop="100px"
-      spacing="50px"
-      width="md"
-      mx="auto"
-    >
+    <VStack alignItems="center" height="full" justifyContent="flex-start" paddingTop="100px" spacing="50px" mx="auto">
       <Heading>Iniciar Sesión</Heading>
       <VStack alignItems="center" paddingTop="5" paddingX="20px" spacing="3" width="90%">
         <Input
