@@ -1,6 +1,6 @@
 # Videoteca
 
-> Simple platform to manage a list of movies that fetches the metadata from IMDB and enables the user to add more information regarding a movie.
+> Simple platform with a custom auth system that manages a list of movies with metadata from IMDB.
 
 [![Docker Image Size](https://badgen.net/docker/size/0xeabz/videoteca/main?icon=docker&label=image%20size)](https://hub.docker.com/r/0xeabz/videoteca/main)
 ![build](https://github.com/eabz/videoteca/actions/workflows/build.yml/badge.svg)
