@@ -5,7 +5,7 @@ FROM base AS deps
 WORKDIR /app
 
 COPY package.json bun.lockb* ./
-RUN bun i --frozen-lockfile
+RUN bun i
 
 FROM base AS builder
 WORKDIR /app
