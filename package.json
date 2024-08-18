@@ -7,33 +7,33 @@
     "create-user": "bun ./scripts/create-user.ts",
     "deps": "bunx npm-check-updates -u",
     "format": "biome format --max-diagnostics 100 --write ./src",
-    "lint": "biome lint --apply-unsafe --max-diagnostics 100 ./src",
+    "lint": "biome lint --write --unsafe --max-diagnostics 100 ./src",
     "start": "next dev"
   },
   "dependencies": {
     "@chakra-ui/react": "2.8.2",
-    "@emotion/react": "11.11.4",
-    "@emotion/styled": "11.11.5",
-    "@tanstack/react-query": "5.36.1",
-    "@tanstack/react-table": "8.17.3",
+    "@emotion/react": "11.13.0",
+    "@emotion/styled": "11.13.0",
+    "@tanstack/react-query": "5.51.23",
+    "@tanstack/react-table": "8.20.1",
     "dotenv": "16.4.5",
-    "framer-motion": "11.2.2",
+    "framer-motion": "11.3.28",
     "lodash": "4.17.21",
     "match-sorter": "6.3.4",
-    "next": "14.2.3",
+    "next": "14.2.5",
     "next-auth": "4.24.7",
-    "pg": "8.11.5",
+    "pg": "8.12.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "sharp": "0.33.3",
+    "sharp": "0.33.5",
     "zod": "3.23.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.7.3",
-    "@types/node": "20.12.12",
+    "@biomejs/biome": "1.8.3",
+    "@types/node": "22.4.0",
     "@types/pg": "8.11.6",
-    "@types/react": "18.3.2",
+    "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
-    "typescript": "5.4.5"
+    "typescript": "5.5.4"
   }
 }

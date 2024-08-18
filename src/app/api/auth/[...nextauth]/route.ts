@@ -43,6 +43,8 @@ const authOptions: NextAuthOptions = {
 
         if (data.hash !== newHash) return null
 
+        await client.end()
+
         return { id: data.username, scope: data.scope, admin: data.admin }
       }
     })
