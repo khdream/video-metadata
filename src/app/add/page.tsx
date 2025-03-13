@@ -26,11 +26,8 @@ export default function AddMovie() {
   const session = useSession()
 
   const [imdbId, setImdbID] = useState<string | undefined>()
-
   const [loading, setLoading] = useState(false)
-
   const [error, setError] = useState(false)
-
   const [movieMetadata, setMovieMetadata] = useState<MovieMetadata | undefined>()
 
   useEffect(() => {
@@ -80,9 +77,7 @@ export default function AddMovie() {
   }
 
   const [addToSv, setAddToSv] = useState<boolean>(true)
-
   const [addToSf, setAddToSf] = useState<boolean>(true)
-
   const [feedback, setFeedback] = useState<string | undefined>(undefined)
 
   const handleFeedback = (feedback: string) => {
@@ -95,9 +90,7 @@ export default function AddMovie() {
   }
 
   const [modified, setModified] = useState<'yes' | 'no' | 'unsuitable'>('no')
-
   const [checkbox, setCheckbox] = useState<string>('2')
-
   const hanldeModifiedChange = (checkbox: string) => {
     setCheckbox(checkbox)
 
@@ -115,11 +108,8 @@ export default function AddMovie() {
   }
 
   const [addedBy, setAddedBy] = useState<string>('cr')
-
   const [loadingUpload, setLoadingUpload] = useState(false)
-
   const [errorUpload, setErrorUpload] = useState(false)
-
   const [uploadSuccess, setUploadSuccess] = useState(false)
 
   const handleUpload = async () => {
